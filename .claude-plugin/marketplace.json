@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "cc-plugin",
-      "source": ".",
+      "source": "./",
       "description": "プラグイン"
     }
   ]
