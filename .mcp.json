@@ -5,8 +5,8 @@
       "args": ["@playwright/mcp@latest"]
     },
     "prompt-mcp-server": {
-      "type": "sse",
-      "url": "http://prompt-mcp-server:3002/sse"
+      "type": "http",
+      "url": "http://prompt-mcp-server:3002/mcp"
     },
     "github": {
       "command": "bash",
