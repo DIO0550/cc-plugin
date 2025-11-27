@@ -1,9 +1,5 @@
 {
   "mcpServers": {
-    "playwright": {
-      "command": "npx",
-      "args": ["@playwright/mcp@latest"]
-    },
     "prompt-mcp-server": {
       "type": "http",
       "url": "http://prompt-mcp-server:3002/mcp"
@@ -15,17 +11,5 @@
         "GITHUB_PERSONAL_ACCESS_TOKEN=\"$GITHUB_TOKEN\" exec /usr/local/bin/github-mcp-server stdio"
       ]
     },
-    "lsmcp": {
-      "command": "npx",
-      "args": [
-        "-y",
-        "@mizchi/lsmcp",
-        "--preset",
-        "typescript",
-        "--bin",
-        "tsgo --lsp --stdio"
-      ],
-      "disabled": true
-    }
   }
 }
